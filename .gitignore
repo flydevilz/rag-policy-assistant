@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Local logs from `rag_pipeline.py ask`
+logs/
+
+# Intermediate batch output (scored versions are kept)
+results.jsonl
+results_opus.jsonl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

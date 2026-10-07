@@ -1,0 +1,145 @@
+{
+  "built_at": "2026-09-30T14:20:19+00:00",
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "dim": 384,
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "min_page_chars": 50,
+  "n_chunks": 1271,
+  "per_document": {
+    "AI_Boardroom_Malaysia.pdf": {
+      "pages_with_text": 38,
+      "chunks": 73,
+      "chars": 60771,
+      "pages_skipped": 4
+    },
+    "AI_Code_of_Ethics_Malaysia.pdf": {
+      "pages_with_text": 23,
+      "chunks": 31,
+      "chars": 23871,
+      "pages_skipped": 1
+    },
+    "AI_Index_Report_Standford_2026.pdf": {
+      "pages_with_text": 424,
+      "chunks": 1005,
+      "chars": 874984,
+      "pages_skipped": 1
+    },
+    "National_AI_Action_Plan.pdf": {
+      "pages_with_text": 93,
+      "chunks": 162,
+      "chars": 135446,
+      "pages_skipped": 11
+    }
+  },
+  "extraction_problems": [
+    {
+      "doc": "AI_Boardroom_Malaysia.pdf",
+      "page": 7,
+      "issue": "little/no extractable text (0 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Boardroom_Malaysia.pdf",
+      "page": 14,
+      "issue": "little/no extractable text (0 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Boardroom_Malaysia.pdf",
+      "page": 21,
+      "issue": "little/no extractable text (27 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Boardroom_Malaysia.pdf",
+      "page": 32,
+      "issue": "little/no extractable text (27 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Code_of_Ethics_Malaysia.pdf",
+      "page": 24,
+      "issue": "little/no extractable text (0 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Index_Report_Standford_2026.pdf",
+      "page": 1,
+      "issue": "little/no extractable text (41 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "AI_Index_Report_Standford_2026.pdf",
+      "page": 135,
+      "issue": "2 invalid unicode surrogate char(s) removed (garbled math glyph) - page still indexed",
+      "skipped": false
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 2,
+      "issue": "little/no extractable text (0 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 12,
+      "issue": "little/no extractable text (41 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 14,
+      "issue": "little/no extractable text (33 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 19,
+      "issue": "little/no extractable text (22 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 49,
+      "issue": "little/no extractable text (22 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 59,
+      "issue": "little/no extractable text (22 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 90,
+      "issue": "little/no extractable text (37 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 101,
+      "issue": "little/no extractable text (37 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 102,
+      "issue": "little/no extractable text (37 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 103,
+      "issue": "little/no extractable text (0 chars) - likely image-only or blank page",
+      "skipped": true
+    },
+    {
+      "doc": "National_AI_Action_Plan.pdf",
+      "page": 104,
+      "issue": "little/no extractable text (46 chars) - likely image-only or blank page",
+      "skipped": true
+    }
+  ]
+}

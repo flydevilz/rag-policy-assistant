@@ -1,0 +1,11 @@
+anthropic>=1.9,<2
+pypdf>=6.0
+fonttools>=4.50        # lets pypdf decode CFF/Type1 fonts correctly
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+numpy>=1.26
+# Evaluation
+ragas @ git+https://github.com/explodinggradients/ragas.git
+langchain-community<0.4   # ragas imports chat_models.vertexai, removed in 0.4
+matplotlib>=3.8
+pandas>=2.0

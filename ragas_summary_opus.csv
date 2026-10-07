@@ -1,0 +1,21 @@
+query_id,category,answerable,refused,refusal_outcome,faithfulness,answer_relevancy,context_precision,relevant_chunks,top1_score,mean_topk_score,n_cited,invalid_citations,docs_retrieved,output_tokens,latency_s,question
+Q01,direct_retrieval,1,0,answered,1.0,0.9229,1.0,1,0.8314,0.7826,3,0,3,304,5.28,What are the seven AI principles identified in Malaysia's AI Code of Ethics?
+Q02,direct_retrieval,1,0,answered,1.0,0.9023,1.0,3,0.863,0.7924,2,0,3,501,4.86,What is the purpose of Malaysia's AI Code of Ethics?
+Q03,direct_retrieval,1,0,answered,1.0,0.9488,0.75,2,0.8291,0.7941,2,0,2,222,3.41,What are the four key pillars of Malaysia's AI Code of Ethics?
+Q04,direct_retrieval,1,0,answered_with_caveat,1.0,0.8903,0.6389,3,0.8033,0.7839,3,0,1,799,8.56,What are the main objectives or priorities identified in Malaysia's AI Roadmap?
+Q05,direct_retrieval,1,0,answered,0.913,0.8532,1.0,1,0.8039,0.7344,3,0,1,458,6.02,What major areas of AI development are discussed in the Stanford AI Index?
+Q06,conceptual,1,0,answered_with_caveat,0.931,0.9558,1.0,4,0.8392,0.8293,4,0,1,1279,13.17,What governance considerations should organisations take into account when adopting AI?
+Q07,conceptual,1,0,answered,1.0,0.897,0.3667,2,0.809,0.7754,4,0,1,1030,11.78,What risks or challenges related to AI adoption are highlighted in the Boardroom Primer?
+Q08,conceptual,1,0,answered_with_caveat,0.8889,0.9228,0.3333,1,0.8463,0.802,4,0,3,666,8.3,How does Malaysia's AI Code of Ethics address accountability in AI use?
+Q09,conceptual,1,0,answered,1.0,0.8004,0.6389,3,0.8127,0.8023,3,0,1,896,9.55,What does the Malaysia AI Roadmap identify as important for developing AI capabilities in Malaysia?
+Q10,conceptual,1,0,answered_with_caveat,0.9714,0.9578,0.3333,1,0.8006,0.7543,4,0,1,1574,17.43,What trends in AI development and adoption are highlighted by the Stanford AI Index?
+Q11,cross_document,1,0,answered_with_caveat,0.8261,0.845,0.8333,2,0.8193,0.7943,4,0,2,937,11.68,How do the principles in Malaysia's AI Code of Ethics relate to the governance considerations discussed in the Boardroom Primer?
+Q12,cross_document,1,0,answered_with_caveat,1.0,0.9763,1.0,5,0.8097,0.8014,5,0,3,1191,12.52,How can Malaysia's AI strategy be supported by responsible AI governance and ethical principles?
+Q13,cross_document,1,0,answered_with_caveat,1.0,0.0,0.3667,2,0.85,0.7948,4,0,1,983,10.95,What similarities can be identified between Malaysia's approach to AI governance and the organisational AI governance considerations discussed in the Boardroom Primer?
+Q14,cross_document,1,0,answered_with_caveat,0.9565,0.0,0.2,1,0.7612,0.7534,5,0,2,810,9.26,How do the global AI developments reported in the Stanford AI Index relate to Malaysia's efforts to develop AI capabilities?
+Q15,cross_document,1,0,answered_with_caveat,1.0,0.9719,1.0,5,0.7742,0.7559,5,0,2,1220,14.3,How could organisations align AI adoption with both business objectives and responsible AI principles based on the provided documents?
+Q16,unanswerable,0,1,correct_refusal,1.0,0.0,0.5,1,0.7803,0.7671,0,0,1,105,3.37,What is Malaysia's exact national AI budget for 2027?
+Q17,unanswerable,0,1,correct_refusal,1.0,0.0,0.0,0,0.7446,0.7124,0,0,3,17,2.7,What is the current market share of OpenAI in Malaysia?
+Q18,unanswerable,0,1,correct_refusal,1.0,0.0,0.0,0,0.6809,0.6578,0,0,1,49,2.09,Who is currently the CEO of OpenAI?
+Q19,unanswerable,0,1,correct_refusal,1.0,0.0,0.0,0,0.7793,0.7485,0,0,1,92,3.22,What percentage of Malaysian companies currently use generative AI?
+Q20,unanswerable,0,1,correct_refusal,1.0,0.0,0.7556,3,0.803,0.7959,0,0,1,203,8.13,What will Malaysia's AI industry revenue be in 2030?

@@ -1,0 +1,7 @@
+Q,Category,Issue,Root Cause,Proposed Fix
+Q13,Cross-doc,Refused (but answerable),"Vocabulary mismatch: ""organisational AI governance"" vs ""Pillar 3: Accountability""","Query decomposition—split into two sub-queries, retrieve from each document separately"
+Q14,Cross-doc,Refused (but answerable),Document size disparity: Stanford Index is massive; Malaysia references buried,Metadata filtering by geographic tags (country: Malaysia) or Map-Reduce summarization
+Q08,Conceptual,Low faithfulness (0.71),Parametric knowledge intrusion: LLM added concepts beyond retrieved chunks,"Tighten system prompt to ""Answer only from context""; use parent-document retrieval for complete clauses"
+Q04,Direct,Low faithfulness (0.77),Temporal ambiguity: Retriever mixed 2021–2025 Roadmap with 2026–2030 Action Plan,Add metadata tags (document_type: historical vs action_plan); temporal filtering
+Q16,Unanswerable,_ Correct refusal,Budget 2027 not in corpus,No fix needed; refine refusal template
+Q17,Unanswerable,_ Correct refusal,Out-of-domain: market share ≠ policy documents,Set up pre-retrieval intent router (Policy vs Commercial)

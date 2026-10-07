@@ -1,0 +1,6 @@
+category,n,faithfulness,answer_relevancy,context_precision,relevant_chunks_of_5,top1_score,mean_topk_score,refusal_rate
+direct_retrieval,5,0.9545,0.9696,0.7944,1.8,0.8261,0.7775,0.0
+conceptual,5,0.89,0.9679,0.5344,2.2,0.8216,0.7927,0.0
+cross_document,5,0.79,0.5905,0.68,3.0,0.8029,0.78,0.4
+unanswerable,5,1.0,0.0,0.4633,1.2,0.7576,0.7363,1.0
+ALL_ANSWERABLE,15,0.8782,0.8427,0.6696,2.3333,0.8169,0.7834,0.1333

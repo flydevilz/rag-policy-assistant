@@ -1,0 +1,21 @@
+query_id,question,reference_answer,answerable
+Q01,What are the seven AI principles identified in Malaysia's AI Code of Ethics?,"Fairness, Reliability/Safety/Control, Privacy/Security, Inclusiveness, Transparency, Accountability, Pursuit of human benefit",1
+Q02,What is the purpose of Malaysia's AI Code of Ethics?,"Provide voluntary, non-binding guidance for implementing ethical AI in organisations",1
+Q03,What are the four key pillars of Malaysia's AI Code of Ethics?,"Awareness of Principles, AI Risk Management, Accountability, Redress Processes",1
+Q04,What are the main objectives or priorities identified in Malaysia's AI Roadmap?,"Develop AI capabilities, support industry growth, establish governance frameworks",1
+Q05,What major areas of AI development are discussed in the Stanford AI Index?,"AI capability trends, research, deployment, policies, and investment across global markets",1
+Q06,What governance considerations should organisations take into account when adopting AI?,"Board oversight, risk management, stakeholder engagement, policy alignment",1
+Q07,What risks or challenges related to AI adoption are highlighted in the Boardroom Primer?,"Implementation risks, governance gaps, accountability challenges, managing AI bias",1
+Q08,How does Malaysia's AI Code of Ethics address accountability in AI use?,"Through pillars on accountability, risk management, redress processes, and transparency requirements",1
+Q09,What does the Malaysia AI Roadmap identify as important for developing AI capabilities in Malaysia?,"Talent development, infrastructure, research investment, ethical governance frameworks",1
+Q10,What trends in AI development and adoption are highlighted by the Stanford AI Index?,"Growth in AI research, increasing deployment, policy development, geographic expansion of AI activity",1
+Q11,How do the principles in Malaysia's AI Code of Ethics relate to the governance considerations discussed in the Boardroom Primer?,"Both emphasize accountability, risk management, stakeholder involvement, and responsible implementation",1
+Q12,How can Malaysia's AI strategy be supported by responsible AI governance and ethical principles?,"By integrating ethical principles into policy frameworks, governance structures, and capability development",1
+Q13,What similarities can be identified between Malaysia's approach to AI governance and the organisational AI governance considerations discussed in the Boardroom Primer?,"Both address accountability, risk management, stakeholder engagement, and principles-based implementation",1
+Q14,How do the global AI developments reported in the Stanford AI Index relate to Malaysia's efforts to develop AI capabilities?,"Global trends show importance of AI investment and policy; Malaysia aligns with international best practices",1
+Q15,How could organisations align AI adoption with both business objectives and responsible AI principles based on the provided documents?,"By integrating ethical principles into strategy, establishing governance structures, and managing risks systematically",1
+Q16,What is Malaysia's exact national AI budget for 2027?,"This specific information is not provided in the documents",0
+Q17,What is the current market share of OpenAI in Malaysia?,"This information is not covered in the provided documents",0
+Q18,Who is currently the CEO of OpenAI?,"This information is not in the policy and governance documents provided",0
+Q19,What percentage of Malaysian companies currently use generative AI?,"This specific statistic is not provided in the documents",0
+Q20,What will Malaysia's AI industry revenue be in 2030?,"The documents do not provide specific revenue projections for Malaysia's AI industry in 2030",0
