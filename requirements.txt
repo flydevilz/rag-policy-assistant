@@ -9,3 +9,6 @@ ragas @ git+https://github.com/explodinggradients/ragas.git
 langchain-community<0.4   # ragas imports chat_models.vertexai, removed in 0.4
 matplotlib>=3.8
 pandas>=2.0
+# Web app
+fastapi>=0.110
+uvicorn>=0.29

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Policy Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="logo">P</div>
+  <h1>Policy Assistant</h1>
+  <button id="newchat" type="button">New chat</button>
+</header>
+
+<div id="scroll"><div id="thread"></div></div>
+
+<footer>
+  <form class="composer" id="form">
+    <textarea id="input" rows="1" placeholder="Ask about Malaysia's AI policies…" maxlength="2000"></textarea>
+    <button id="send" type="submit" aria-label="Send" disabled>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+           stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+  </form>
+  <div class="hint">Answers come only from the indexed documents and may contain mistakes. Check the cited pages.</div>
+</footer>
+
+<script src="/static/chat.js"></script>
+</body>
+</html>

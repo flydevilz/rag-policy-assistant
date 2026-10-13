@@ -28,7 +28,7 @@ Use for: the cost / latency trade-off between generators.
 
 ---
 
-## 2. Sample answer with citations (good for the appendix or video demo)
+## 2. Sample answer with citations (good for the appendix)
 
 ```
 Q: What are the key principles of Malaysia's AI Code of Ethics?

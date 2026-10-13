@@ -1,6 +1,6 @@
 # RAG Pipeline for Malaysia AI Policy Q&A
 
-A Retrieval-Augmented Generation (RAG) assistant that answers questions about Malaysia's AI governance policies. Answers are grounded only in the retrieved document chunks and include numbered citations. When retrieval confidence is low, the question is escalated to a human reviewer.
+A Retrieval-Augmented Generation (RAG) assistant that answers questions about Malaysia's AI governance policies. Answers are grounded only in the retrieved document chunks and include numbered citations. When retrieval confidence is low, the assistant declines instead of guessing. The evaluation treats these cases as escalations to staff; the [web app](#web-app) explains that the question is outside the documents' scope.
 
 BAA5123 AI and Decision Making, Topic 18: Retrieval-Augmented Assistants for Internal Knowledge.
 
@@ -58,6 +58,22 @@ python evaluate_ragas.py --results results_opus.jsonl \
 python threshold_analysis.py --input results_opus_with_ragas_scores.jsonl \
   --out-csv threshold_analysis_opus.csv --out-png threshold_plot_opus.png
 ```
+
+## Web app
+
+A chat interface over the same pipeline (`app.py`, page in `static/`). The pipeline itself is unchanged.
+
+```bash
+export ANTHROPIC_API_KEY=...
+uvicorn app:app --host 0.0.0.0 --port 7860      # then open http://localhost:7860
+```
+
+- **Answers** are shown only when the model did not refuse and `top1_score` ≥ 0.80, with clickable citations and the source pages.
+- **Follow-up questions** ("explain the second one") are rewritten into a standalone question by a short Claude call, using the last few messages. The page shows the rewritten question as "Searched for: …".
+- **Out-of-scope questions** get a short decline written for that question, plus a suggested question the documents can answer. Suggestions are only shown if they pass the same 0.80 retrieval threshold.
+- **Nothing is stored on the server.** Chat history stays in the browser tab.
+
+The app needs internet access for the Claude API. On first start it also downloads the embedding model (about 130 MB).
 
 ## Evaluation set
 
@@ -134,6 +150,8 @@ From `error_analysis.csv`:
 | Path | Contents |
 |---|---|
 | `rag_pipeline.py` | Indexing, retrieval, and answer generation (`build` / `ask` / `batch`) |
+| `app.py` | FastAPI chat app: `/api/ask`, follow-up rewriting, scope declines |
+| `static/` | Chat page (`index.html`, `style.css`, `chat.js`) |
 | `evaluate_ragas.py` | RAGAS scoring |
 | `threshold_analysis.py` | Confidence-threshold sweep and plot |
 | `questions.csv` | 20 evaluation questions with reference answers |
